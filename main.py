@@ -205,7 +205,7 @@ Python Collections:
 # for i in range(0, 1000):
 #     print(i)       #this will give you a print upto 999
 
-# for i in range(21000, 60000):
+# for i in range(21000, 67000):
 #     print(i)
 
 
