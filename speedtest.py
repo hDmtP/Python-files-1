@@ -3,4 +3,6 @@
 #type-->  speedtest-cli -h, to get all the available options
 #type-->  speedtest-cli --help
 #type-->  speedtest-cli --simple
-#type-->  speedtest-cli --share
+# type-->  speedtest-cli --share
+
+
