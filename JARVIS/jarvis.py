@@ -28,8 +28,11 @@ def wishMe():
     elif hour>=12 and hour<18:
         speak("Good afternoon Dhara")    
     
-    else:
+    elif hour>=18 and hour<21:
         speak("good evening dhara")
+    
+    else:
+        speak("good night dhara")
         
     speak("Your virtual assistant Jarvis is here. Please tell me how I can help you!")
 
