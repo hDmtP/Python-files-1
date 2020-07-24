@@ -46,7 +46,7 @@ numbers = [1, 5, 7, 9, 45, 35, 87, 101, 15]
 # numbers.sort()
 # numbers.reverse()
 # print(numbers[ : :7])
-# print(numbers[ : :-1])
+# print(numbers[ : :-3])
 # print(len(numbers))
 # numbers.append(78)
 # numbers.insert(0, 69)
