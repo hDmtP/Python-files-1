@@ -21,13 +21,13 @@ print(var2+var1)
 # var1 = 65965
 # var2 = 979
 # print(100*str(var1+var2))
-'''
+
 import math
 
 print("Enter your percentile\n")
 jeeRank = input()
-print("Your AIR:",math.ceil((1-float(jeeRank)/100)*900000))
-'''
+print("Your AIR:",math.ceil((1-float(jeeRank)/100)*900000)+1)
+
 
 # myStr = "Dhara is a good boy"
 # print(myStr[: :-1])
