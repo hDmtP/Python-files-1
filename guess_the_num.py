@@ -1,5 +1,6 @@
 import winsound
-n=18
+import random
+n=random.randint(10,99)
 no_of_gu=1
 
 print("You have total 8 chances to guess the correct number\n")
@@ -10,14 +11,14 @@ winsound.Beep(fr,dr)
 
 while(no_of_gu<=9):
     u=int(input("Enter your guessed number here: "))
-    if(u>18):
+    if(u>n):
         print("Please enter a ***LESSER*** number than", u)
         fr=1333
         dr=1500
         winsound.Beep(fr,dr)
 
         
-    elif(u<18):
+    elif(u<n):
         print("Please enter a ***GREATER*** number than", u)
         fr=5333
         dr=1500
