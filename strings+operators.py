@@ -14,8 +14,8 @@
 
 
 # Operators
-'''
 print(789//78)
+'''
 print(89//78)
 print(89//178)
 print(789%78)
