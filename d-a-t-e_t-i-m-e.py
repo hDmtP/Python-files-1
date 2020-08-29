@@ -19,9 +19,9 @@ print(x.strftime("%W"))
 print(x.strftime("%w"))
 print(x.strftime("%d"))
 print(x)
-print(now.day)
-print(now.hour)
-print(now.year)
+# print(now.day)
+# print(now.hour)
+# print(now.year)
 
 
 

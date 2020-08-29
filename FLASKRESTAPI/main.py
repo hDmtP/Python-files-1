@@ -15,7 +15,7 @@ def amstrng(n):
     m=n
     while(m>0):
         count+=1
-        m=m//10            
+        m//=10            
 
     sum=0
     temp=n
