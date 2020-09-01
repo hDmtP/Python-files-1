@@ -30,7 +30,8 @@ if __name__ == "__main__":
     
     init=time.time()
 
-    # print(factorial_recur(value))
-    # print(factorial_iter(value))
-    print(fibonacci(value))
-    print(f"Operation time = {time.time() - init}s")
+    print(factorial_recur(12))
+    print(factorial_iter(12))
+    print(fibonacci(12), f"operation time = {time.time()-init}s")
+    # print(f"Operation time = {time.time() - init}s")
+    
