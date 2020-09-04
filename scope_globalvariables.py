@@ -16,8 +16,8 @@ func1("here is me hDmtP")
 print(a, b, a*b, b/a, b%a)
 '''
 
-'''
-# x=240
+
+x=240
 def dhara():
     x=256
     def bnjee():
@@ -26,7 +26,6 @@ def dhara():
 
     bnjee()
     print("after calling bnjee", x)
-
+print(x)
 dhara()
 print(x)
-'''
