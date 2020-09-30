@@ -16,3 +16,5 @@ import pyshorteners as ps
 url = "https://www.instagram.com/p/CCyHGMDA5MF/"
 print(ps.Shortener().tinyurl.short(url))
 '''
+
+#NOTE : This only works for local host !
