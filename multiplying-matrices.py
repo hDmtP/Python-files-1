@@ -1,9 +1,10 @@
-def matrix_mult():
-    for i in range(0,len(a)):
-        for j in range(0, len(b[0])): 
-            for k in range(0,len(b)):
-                c[i][j]+=a[i][k]*b[k][j]
-                return c
+# def matrix_mult():
+#     for i in range(0,len(a)):
+#         for j in range(0, len(b[0])): 
+#             for k in range(0,len(b)):
+#                 d[i][j]+=a[i][k]*b[k][j]
+#     for row in d:
+#         print(row)
 
 if __name__ == "__main__":
     print("Howdy!welcom to matrix-multiplication. Please print below how many coloumns do you want?")
@@ -11,7 +12,7 @@ if __name__ == "__main__":
     print("Give space after each element")
     a = []
     b = []
-    c = []
+    # c = []
     x = 1
     y = 1
     for _ in range(n):
@@ -27,12 +28,21 @@ if __name__ == "__main__":
     d=b.copy()
 
     for i in range(n):
-        for j in range(len(d[0])):
-            d[i][j]=0
-            c=d
-    print(c)
-    result=matrix_mult()
-    print(result)
+        for j in range(len(b[0])):
+                
+            d[i][j]*=0
+    # c=d
+    print(d)
+
+    for i in range(0,len(a)):
+        for j in range(0, len(b[0])): 
+            for k in range(0,len(b)):
+                d[i][j]+=a[i][k]*b[k][j]
+    for row in d:
+        print(row)
+
+    # result=matrix_mult()
+    # print(result)
 
 
     
