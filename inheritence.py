@@ -12,7 +12,7 @@ class Student(Person):
 x = Student('Pritam', 'Dhara')
 x.printname()
 '''
-
+'''
 class Sondhi:
     def __init__(self, head, legs, body, hands, rorgan):
        self.first = head
@@ -33,3 +33,17 @@ y.Human()
         
 
 #  HERE __init__ STORES ALL THE ARGUMENTS_MEMORY, THUS LEADING TO LESS LINE OF CODES
+'''
+class Try:
+    def do_something(self):
+        print("https://www.youtube.com/watch?v=g6vQWURCITs&ab_channel=AmazingIndia")
+
+if __name__ == "__main__":
+    obj_list=[]
+    for obj in range(69):
+        obj=Try()
+        obj_list.append(obj)
+
+obj_list[0].do_something()
+        
+    
