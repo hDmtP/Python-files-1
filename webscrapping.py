@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup, UnicodeDammit
 import re
-
 from bs4 import dammit
 
 with open('tut26.html') as html_doc:
