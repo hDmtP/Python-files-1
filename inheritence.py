@@ -45,5 +45,6 @@ if __name__ == "__main__":
         obj_list.append(obj)
 
 obj_list[0].do_something()
+print(type(Try))
         
     
