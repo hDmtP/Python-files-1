@@ -23,6 +23,7 @@ def obj3(arg):
 obj3("Call of Duty")
 #---------------------------------------------------------
 import inspect
+
 def smart_work(func):
     def inner(*args):
         print("This computational work involves",
