@@ -1,6 +1,6 @@
 '''
 a = [1, 2, 3, 4] 
-if (n := len(a)) > 3: 
+if (n := len(a)) > 3: #first told by lex fridman
 	print(f"List is too long ({n} elements, expected <= 3)") 
 '''
 '''
