@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Alert Explaination</title>
+</head>
+<body bgcolor="#C0C0C0">
+    <h1>Simple Alert Demonstration</h1>
+    <button onclick="alertFunction()" name ="alert"> Create Alert</button>
+    <p id ="msg"> 
+    </p>
+    <script>
+    function alertFunction() {
+     var txt;
+     if (confirm("Hi!! I am Confirmation Alert.")) {
+     
+     txt = "You pressed OK!"
+    
+    } else {
+    
+    txt = "You pressed CANCEL!"
+     }
+     document.getElementById("msg").innerHTML = txt;
+    }
+    </script>
+</body>
+</html>
