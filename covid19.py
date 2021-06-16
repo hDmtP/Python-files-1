@@ -21,7 +21,7 @@ def getData(url):
 
 if __name__ == "__main__":
      while True:
-    #  notifyMe("Dhara", "Let's stop the spread of corona virus together")
+    #  notifyMe("Dhara bhai", "Let's stop the spread of corona virus together")
         myHtmlData = getData('https://www.mohfw.gov.in/')
         # print(myHtmlData)
 
