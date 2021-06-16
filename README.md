@@ -6,5 +6,5 @@
                    :>NOTE--> visit file tut5.py for good competition and python tactics
 #Edit 3: 22/07/2020: started python course on codewithharry(github.com/haris989). video#9 till 4:15 pm
 #Edit 4: 26/07/2020: aii python project files will be uploaded on a new branch named "programm"
-#Edit 5: 27/07/2020: now only practice branch will recievce pushes(probably')
+#Edit 5: 27/07/2020: now only practice branch will recievce pushes(probably') 
 
