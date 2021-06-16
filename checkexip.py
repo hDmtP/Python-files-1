@@ -5,7 +5,7 @@ print(urllib3.urlopen('http://ip.42.pl/raw').read())
 
 '''
 import requests
-print(requests.get('http://ip.42.pl/raw').text)
+print(requests.get('http://ip.42.pl/raw').text)  `ignore it`
 '''
 
 import socket
