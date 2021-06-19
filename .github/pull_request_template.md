@@ -12,7 +12,7 @@ Proposed changes
 
 
 # Checklist
-- [ ] Have read [contribution.md](https://www.google.com)
+- [x] Have read [contribution.md](https://www.google.com)
 - [ ] Tests
 - [ ] Translations
 - [ ] Documentaions
