@@ -1,5 +1,6 @@
 # I am learning Python ~~(Edited line 2)~~
 <img alt="GitHub issues badge" src="https://img.shields.io/github/issues/hDmtP/Python-files-1">
+
 ### Edit 1:20/7/2020: Now every python files will be uploaded in a new branch named "project". Branch "master" will now not recieve any further pushes. Branch "practice" will recieve pushes related python practice(daily pushes). All the pushes till October will be done by my second Avatar hDmtP645. 
 
 ### Edit 2:21/7/2020: files with prac2 commit are 1.main python tutorial file & 2.strings and  operators practice file. Unfortunately forget to practice 1.Loops & 2.def!!!!!
